@@ -1,5 +1,5 @@
 :root {
-  --primary-brand-color: #4d5ae5;
+  --color: #4d5ae5;
   --pressed-state-color: #404bbf;
   --dark-color: #2e2f42;
   --success-color: #31d0aa;
@@ -74,7 +74,7 @@ text-decoration: Underline;
 }
 
 .logo{
-  --primary-brand-color: #4d5ae5;
+  color: var(#4d5ae5);
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
