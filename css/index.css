@@ -98,6 +98,10 @@ letter-spacing: 0.54px;
 text-transform: uppercase;
 }
 
+.nav-list{
+list-style: none;
+}
+
 .filter-button {
   background-color: #f4f4fd;
 }
