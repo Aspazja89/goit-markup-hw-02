@@ -74,6 +74,7 @@ text-decoration: Underline;
 }
 
 .logo{
+  --primary-brand-color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -87,7 +88,7 @@ text-decoration: Underline;
 
 .logo-studio
 {
-color: var(#2E2F42);
+--dark-color:#2E2F42;
 font-family: "Raleway",sans-serif;
 font-size: 18px;
 font-style: normal;
