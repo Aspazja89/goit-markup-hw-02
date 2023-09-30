@@ -1,5 +1,5 @@
 :root {
-  --color: #4d5ae5;
+  --primary-brand-color: #4d5ae5;
   --pressed-state-color: #404bbf;
   --dark-color: #2e2f42;
   --success-color: #31d0aa;
@@ -74,7 +74,7 @@ text-decoration: Underline;
 }
 
 .logo{
-  color: var(#4d5ae5);
+  color: var(--primary-brand-color);
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -88,7 +88,7 @@ text-decoration: Underline;
 
 .logo-studio
 {
---dark-color:#2E2F42;
+color: var(--dark-color);
 font-family: "Raleway",sans-serif;
 font-size: 18px;
 font-style: normal;
