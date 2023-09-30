@@ -42,21 +42,29 @@ letter-spacing: 2%;
 font-family: Roboto;
 font-weight: Regular;
 font-size: 12px;
-Line Height: 14px Letter Spacing: 4%;
+line-height: 14px; 
+letter-spacing: 4%;
+
 --medium:
-font-family: Roboto font-weight: Medium
-Size: 16px
-Line Height: 24px
-Letter Spacing: 2%;
---button-text:font-family: Roboto
-font-weight: Medium
-Size: 16px Line Height: 24px
-Letter Spacing: 4%;
---link:font-family: Roboto
-font-weight: Regular
-Size: 12px Line Height: 16px
-Letter Spacing: 4%
-Decoration: Underline;
+font-family: Roboto;
+font-weight: Medium;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 2%;
+
+--button-text:
+font-family: Roboto;
+font-weight: Medium;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 4%;
+
+--link:font-family: Roboto;
+font-weight: Regular;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 4%;
+text-decoration: Underline;
 }
 
 .filter-button {
