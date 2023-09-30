@@ -68,9 +68,21 @@ text-decoration: Underline;
 }
 
 
-.text-color {
+.body-color {
   color:#434455;
   background-color:#FFFFFF ;
+}
+
+.logo-web-studio
+{
+color: var(--NAVY-BLUE, #2E2F42);
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 21px; /* 116.667% */
+letter-spacing: 0.54px;
+text-transform: uppercase;
 }
 
 .filter-button {
