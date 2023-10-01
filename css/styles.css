@@ -123,6 +123,7 @@ text-decoration: none;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color:var(--primary-brand-color)
 }
 
 .logo-studio
@@ -162,4 +163,10 @@ letter-spacing: 4%;
 
 .address{
 font-style: normal;
+}
+.footer{
+background-color:var(--dark-color) ;
+}
+.footerspan{
+color: #f4f4fd;
 }
