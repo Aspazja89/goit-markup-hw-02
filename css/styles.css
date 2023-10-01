@@ -1,4 +1,4 @@
-:root {
+:root{
   --primary-brand-color: #4d5ae5;
   --pressed-state-color: #404bbf;
   --dark-color: #2e2f42;
@@ -126,8 +126,7 @@ text-decoration: none;
   color:var(--primary-brand-color)
 }
 
-.logo-studio
-{
+.logo-studio{
 color: var(--dark-color);
 font-family: "Raleway",sans-serif;
 font-size: 18px;
@@ -142,7 +141,7 @@ text-transform: uppercase;
 list-style: none;
 }
 
-.filter-button {
+.filter-button{
 background-color: #f4f4fd;
 font-family: Roboto;
 font-weight: Medium;
@@ -152,7 +151,7 @@ letter-spacing: 4%;
 }
 
 .filter-button:hover,
-.filter-button:focus {
+.filter-button:focus{
 background-color: #404bbf;
 font-family: Roboto;
 font-weight: Medium;
