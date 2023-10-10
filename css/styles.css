@@ -1,4 +1,4 @@
-:root{
+:root {
   --primary-brand-color: #4d5ae5;
   --pressed-state-color: #404bbf;
   --dark-color: #2e2f42;
@@ -11,152 +11,128 @@
   --hero-background-color: #2e2f42b2;
   --white-background-color: #ffffff;
   --modal-background-color: #fcfcfc;
-  
-  --header1:
-font-family: Roboto;
-font-weight: Bold;
-font-size: 56px;
-letter-spacing: 2%;
-line-height: 60px;
-
---header2:
-font-family: Roboto;
-font-weight: Bold;
-font-size: 36px;
-letter-spacing: 2%;
-
---header3:
-font-family: Roboto;
-font-weight: Medium;
-font-size: 20px;
-letter-spacing: 2%;
-
---body:
-font-family: Roboto;
-font-weight: Regular;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 2%;
-
---small:
-font-family: Roboto;
-font-weight: Regular;
-font-size: 12px;
-line-height: 14px; 
-letter-spacing: 4%;
-
---medium:
-font-family: Roboto;
-font-weight: Medium;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 2%;
-
---button-text:
-font-family: Roboto;
-font-weight: Medium;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 4%;
-
---link:font-family: Roboto;
-font-weight: Regular;
-font-size: 12px;
-line-height: 16px;
-letter-spacing: 4%;
-text-decoration: none;
 }
 
-h1{
-text-align: center;
-font-family: Roboto;
-font-weight: Bold;
-font-size: 56px;
-letter-spacing: 2%;
-line-height: 60px;
-}
-h2{
-font-family: Roboto;
-font-weight: Bold;
-font-size: 36px;
-letter-spacing: 2%;
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+  background-color: var(--white-background-color);
 }
 
-h3{
-font-family: Roboto;
-font-weight: Medium;
-font-size: 20px;
-letter-spacing: 2%;
-}
-.body{
-font-family: "Roboto", sans-serif;
-color:#434455;
-background-color:#FFFFFF;
-font-weight: Regular;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 2%;
-}
-
-
-.link{
-text-decoration: none;
-}
-
-.navlink{
-
-}
-
-.logo{
+.nav-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color:var(--primary-brand-color)
+  color: var(--primary-brand-color);
 }
 
-.logo-studio{
-color: var(--dark-color);
-font-family: "Raleway",sans-serif;
-font-size: 18px;
-font-style: normal;
-font-weight: 800;
-line-height: 21px;
-letter-spacing: 0.54px;
-text-transform: uppercase;
+.link :hover {
+  text-decoration: none;
+  color: #404bbf;
 }
 
-.list{
-list-style: none;
+.logo-studio {
+  color: var(--dark-color);
 }
 
-.filter-button{
-background-color: #f4f4fd;
-font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 4%;
+.list {
+  list-style: none;
 }
 
+.logo-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+.link {
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 56px;
+  letter-spacing: 2%;
+  line-height: 60px;
+}
+h2 {
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 36px;
+  letter-spacing: 2%;
+}
+h3 {
+  font-family: Roboto;
+  font-weight: Medium;
+  font-size: 20px;
+  letter-spacing: 2%;
+}
+.body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+  font-weight: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+
+.link {
+  text-decoration: none;
+}
+.navlink {
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand-color);
+}
+.logo-studio {
+  color: var(--dark-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.list {
+  list-style: none;
+}
+.filter-button {
+  background-color: #f4f4fd;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+}
 .filter-button:hover,
-.filter-button:focus{
-background-color: #404bbf;
-font-family: Roboto;
-font-weight: Medium;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 4%;
+.filter-button:focus {
+  background-color: #404bbf;
+  font-family: Roboto;
+  font-weight: Medium;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
 }
-
-.address{
-font-style: normal;
+.address {
+  font-style: normal;
 }
-.footer{
-background-color:var(--dark-color) ;
+.footer {
+  background-color: var(--dark-color);
 }
-.footerspan{
-color: #f4f4fd;
+.footerspan {
+  color: #f4f4fd;
 }
