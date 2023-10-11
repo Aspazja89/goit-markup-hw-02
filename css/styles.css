@@ -30,7 +30,6 @@ body {
 }
 
 .link :hover {
-  text-decoration: none;
   color: #404bbf;
 }
 
@@ -56,14 +55,12 @@ body {
 h1 {
   text-align: center;
   font-family: Roboto;
-  font-weight: Bold;
   font-size: 56px;
   letter-spacing: 2%;
   line-height: 60px;
 }
 h2 {
   font-family: Roboto;
-  font-weight: Bold;
   font-size: 36px;
   letter-spacing: 2%;
 }
@@ -87,6 +84,10 @@ h3 {
   text-decoration: none;
 }
 .navlink {
+  color: var(--dark-color);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -135,4 +136,10 @@ h3 {
 }
 .footerspan {
   color: #f4f4fd;
+}
+
+.address-link {
+  color: var(--text-color);
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
