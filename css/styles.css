@@ -75,7 +75,10 @@ nav > a:hover {
   line-height: 1.2;
   color: #2e2f42;
 }
-
+.paragraph {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
 .value {
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -117,6 +120,14 @@ nav > a:hover {
 }
 .list-item {
   background-color: #ffffff;
+
+  .fullname {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+  }
 }
 .navlink {
   color: var(--dark-color);
@@ -165,6 +176,18 @@ nav > a:hover {
 }
 .address {
   font-style: normal;
+}
+
+.section-four {
+  background-color: #f4f4fd;
+}
+.our-team {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark-color);
 }
 
 .footer {
