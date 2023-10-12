@@ -186,6 +186,9 @@ nav > a:hover {
   color: var(--primary-brand-color);
   background-color: var(--light-color);
 }
+.portfoliobutton:hover .portfoliobutton:focus .portfoliobutton:active {
+  color: #ffffff;
+}
 .imagetext {
   font-weight: 500;
   font-size: 20px;
