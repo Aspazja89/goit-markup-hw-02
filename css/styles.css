@@ -29,7 +29,7 @@ body {
   color: var(--primary-brand-color);
 }
 
-.link :hover {
+.link :hover .link :focus {
   color: #404bbf;
 }
 
