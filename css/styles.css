@@ -28,12 +28,13 @@ body {
   text-transform: uppercase;
   color: var(--primary-brand-color);
 }
-nav > a :hover {
+nav > a:hover {
   color: #404bbf;
 }
 
 .navlink:hover,
-:focus {
+.navlink:focus,
+.navlink:active {
   color: #404bbf;
 }
 
